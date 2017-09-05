@@ -1,0 +1,55 @@
+{
+  "type": "object",
+  "comment": "issueslist",
+  "properties": {
+    "issueslist": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "update": {
+              "type": "none"
+            }
+          },
+          "summary": {
+            "type": "string",
+            "update": {
+              "type": "none"
+            }
+          },
+          "status": {
+            "type": "string",
+            "update": {
+              "type": "none"
+            }
+          },
+          "severity": {
+            "type": "string",
+            "update": {
+              "type": "none"
+            }
+          },
+          "assignedto": {
+            "type": "string",
+            "update": {
+              "type": "none"
+            }
+          },
+          "updated": {
+            "type": "string",
+            "update": {
+              "type": "none"
+            }
+          }
+        }
+      },
+      "update": {
+        "type": "none"
+      },
+      "selectorAll": "#buglist tbody tr"
+    }
+  },
+  "connect": []
+}
