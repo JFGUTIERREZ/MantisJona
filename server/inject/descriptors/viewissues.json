@@ -43,12 +43,6 @@
             "selectIndex": 7,
             "control": "property.innerText"
           },
-          "assignedto": {
-            "type": "string",
-            "update": {
-              "type": "none"
-            }
-          },
           "updated": {
             "type": "string",
             "update": {
