@@ -43,8 +43,9 @@
     },
     "isLogin": {
       "type": "identifier",
-      "selector": "div",
-      "control": "property.innerHTML"
+      "selector": ".form-title",
+      "control": "exists",
+      "selectContains": "login"
     }
   },
   "connect": []
