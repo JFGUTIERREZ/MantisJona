@@ -20,7 +20,9 @@
             "type": "string",
             "update": {
               "type": "none"
-            }
+            },
+            "selector": "td",
+            "selectIndex": 7
           },
           "status": {
             "type": "string",
