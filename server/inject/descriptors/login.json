@@ -11,7 +11,7 @@
           "submit"
         ]
       },
-      "selector": "td"
+      "selector": "[name=\"username\"]"
     },
     "password": {
       "type": "string",
