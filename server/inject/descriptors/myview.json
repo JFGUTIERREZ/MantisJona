@@ -3,7 +3,7 @@
   "properties": {
     "ismyview": {
       "type": "identifier",
-      "selector": ".subtitle(href)",
+      "selector": ".subtle[href]",
       "control": "exists",
       "selectContains": "Assigned to Me (Unresolved)"
     }
