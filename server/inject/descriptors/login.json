@@ -32,7 +32,8 @@
       }
     },
     "submit": {
-      "type": "action"
+      "type": "action",
+      "selector": ".button"
     },
     "islogin": {
       "type": "identifier",
