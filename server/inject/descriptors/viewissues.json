@@ -53,7 +53,9 @@
             "type": "string",
             "update": {
               "type": "none"
-            }
+            },
+            "selector": "td",
+            "selectIndex": 9
           }
         }
       },
