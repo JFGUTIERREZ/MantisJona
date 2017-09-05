@@ -22,7 +22,8 @@
               "type": "none"
             },
             "selector": "td",
-            "selectIndex": 7
+            "selectIndex": 7,
+            "control": "property.innerText"
           },
           "status": {
             "type": "string",
