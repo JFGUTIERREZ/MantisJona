@@ -11,7 +11,10 @@
             "type": "string",
             "update": {
               "type": "none"
-            }
+            },
+            "selector": "td",
+            "selectIndex": 4,
+            "control": "property.innerText"
           },
           "summary": {
             "type": "string",
