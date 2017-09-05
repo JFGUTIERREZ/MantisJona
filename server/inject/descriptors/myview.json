@@ -3,8 +3,9 @@
   "properties": {
     "ismyview": {
       "type": "identifier",
-      "selector": "#buglist",
-      "control": "property.innerText"
+      "selector": ".subtitle(href)",
+      "control": "property.innerText",
+      "selectContains": "Assigned to Me (Unresolved)"
     }
   },
   "connect": []
