@@ -4,5 +4,10 @@
   "defaultLayout": "phone-portrait",
   "previewToken": "2012b10b",
   "uiCommonVersion": "5.1.2",
-  "creatorId": "gdljohgu"
+  "creatorId": "gdljohgu",
+  "id": "mantisjona",
+  "previewImageURL": "/previews/2012b10b-mantisjona/app/blank.png",
+  "isVersioned": true,
+  "githubRepo": "https://github.com/JFGUTIERREZ/mantisjona",
+  "creatorName": "Johnattan Fabian Gutierrez"
 }

@@ -1,7 +1,7 @@
 {
   "id": "app",
   "name": "mantisjona",
-  "startScreen": "app.blank",
+  "startScreen": "app.login",
   "screens": [
     {
       "id": "blank",
