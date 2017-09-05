@@ -22,7 +22,7 @@
           "submit"
         ]
       },
-      "selector": "td"
+      "selector": "[name=\"password\"]"
     },
     "errorMessage": {
       "type": "string",
