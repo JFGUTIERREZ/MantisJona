@@ -1,7 +1,7 @@
 'use strict';
 module.exports = {
     // Start URL that browsing should start at.
-    startURL: '',
+    startURL: 'http://ec2-52-41-179-125.us-west-2.compute.amazonaws.com/mantisbt/login_page.php',
     // Start Method when there is no start URL.  This is fpr when we are doing an API integration,
     // and we don't actually need to load phantom (yet).
     // startMethod: "login.onStart",
