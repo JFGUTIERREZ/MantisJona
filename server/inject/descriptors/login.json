@@ -10,7 +10,8 @@
         "action": [
           "submit"
         ]
-      }
+      },
+      "selector": "td"
     },
     "password": {
       "type": "string",
@@ -30,15 +31,12 @@
       }
     },
     "submit": {
-      "type": "action",
-      "parameters": {
-        "username": {
-          "type": "string"
-        },
-        "password": {
-          "type": "string"
-        }
-      }
+      "type": "action"
+    },
+    "islogin": {
+      "type": "identifier",
+      "selector": "[name=\"username\"]",
+      "control": "text"
     }
   },
   "connect": []
