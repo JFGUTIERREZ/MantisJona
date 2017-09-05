@@ -32,8 +32,9 @@
       "update": {
         "type": "none"
       },
-      "selector": "div",
-      "control": "text"
+      "selector": "font",
+      "control": "text",
+      "selectContains": "Your account may be disabled or blocked or the username/password you entered is incorrect"
     },
     "submit": {
       "type": "action",
