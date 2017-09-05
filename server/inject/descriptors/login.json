@@ -10,8 +10,7 @@
         "action": [
           "submit"
         ]
-      },
-      "selector": "[name=\"username\"]"
+      }
     },
     "password": {
       "type": "string",
