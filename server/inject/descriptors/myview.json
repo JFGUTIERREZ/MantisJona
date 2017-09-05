@@ -4,7 +4,7 @@
     "ismyview": {
       "type": "identifier",
       "selector": ".subtitle(href)",
-      "control": "property.innerText",
+      "control": "exists",
       "selectContains": "Assigned to Me (Unresolved)"
     }
   },
