@@ -40,6 +40,11 @@
       "type": "action",
       "selector": ".button",
       "control": "action.button"
+    },
+    "isLogin": {
+      "type": "identifier",
+      "selector": "div",
+      "control": "property.innerHTML"
     }
   },
   "connect": []
