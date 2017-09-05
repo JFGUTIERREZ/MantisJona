@@ -51,7 +51,7 @@
       "update": {
         "type": "none"
       },
-      "selectorAll": "#buglist tbody tr"
+      "selectorAll": "#buglist tr[bgcolor]"
     }
   },
   "connect": []
