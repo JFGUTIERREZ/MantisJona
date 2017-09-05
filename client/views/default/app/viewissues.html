@@ -1,0 +1,64 @@
+<ion-view data-comp-id="ionic-view.1">
+    <ion-nav-bar align-title="" class=" bar-energized" data-comp-id="nav-bar.1">
+        <ion-nav-buttons side="left">
+            <button class="button button-icon ion-ios-arrow-left" data-comp-id="button.1"></button>
+        </ion-nav-buttons>
+        <ion-nav-title data-comp-id="nav-title.1">Issues List</ion-nav-title>
+        <ion-nav-buttons side="right"></ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-content class=" stable-bg" data-comp-id="ionic-content.1">
+        <div class=" card" data-comp-id="div.1" ng-repeat="item in data.issueslist"
+            style="border-image: initial; border-radius: 2px; background-color: rgb(255, 255, 255);">
+            <div class="row" data-comp-id="row.1"
+                style="background-color: rgb(251, 251, 254); margin: -4px 0px 0px; padding: 4px 12px;">
+                <div class="col" data-comp-id="column.1">
+                    <div class="" data-comp-id="text.1" ng-bind="item.id"
+                        style="color: rgb(102, 102, 102); font-size: 20px; font-weight: normal; line-height: 20px; margin: 4px 0px;">0000506</div>
+                </div>
+                <div class="col text-right" data-comp-id="column.2">
+                    <div data-comp-id="text.2" ng-bind="item.severity"
+                        style="margin: 4px 0px; font-size: 14px;">minor</div>
+                </div>
+            </div>
+            <div class="row" data-comp-id="row.2"
+                style="border-bottom: 1px solid rgb(241, 241, 241); padding: 0px 12px;">
+                <div class="col" data-comp-id="column.3" style="">
+                    <div data-comp-id="text.3" ng-bind="item.summary"
+                        style="color: rgb(102, 102, 102); font-size: 14px; font-weight: normal; margin: 4px 0px;">Lorem
+                        ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut enim ac sem
+                        mollis pharetra quis id arcu.</div>
+                </div>
+            </div>
+            <div class="row" data-comp-id="row.3" style="padding: 0px 12px;">
+                <div class="col col-10" data-comp-id="column.4">
+                    <i class="icon fa-icon fa-suitcase" data-comp-id="icon.1"
+                        style="font-size: 14px; color: rgb(153, 153, 153);"></i>
+                </div>
+                <div class="col" data-comp-id="column.5">
+                    <div data-comp-id="text.4" ng-bind="item.status"
+                        style="color: rgb(102, 102, 102); font-size: 14px;">assigned</div>
+                </div>
+            </div>
+            <div class="row" data-comp-id="row.4" style="padding: 0px 12px;">
+                <div class="col col-10" data-comp-id="column.6">
+                    <i class="icon fa-icon fa-user" data-comp-id="icon.2"
+                        style="font-size: 14px; color: rgb(153, 153, 153);"></i>
+                </div>
+                <div class="col" data-comp-id="column.7">
+                    <div data-comp-id="text.5" ng-bind="item.assignedto"
+                        style="color: rgb(102, 102, 102); font-size: 14px;">firstname lastname</div>
+                </div>
+            </div>
+            <div class="row" data-comp-id="row.5" style="padding: 0px 12px;">
+                <div class="col col-10" data-comp-id="column.8">
+                    <i class="icon fa-icon fa-clock-o" data-comp-id="icon.3"
+                        style="font-size: 14px; color: rgb(153, 153, 153);"></i>
+                </div>
+                <div class="col" data-comp-id="column.9">
+                    <div data-comp-id="text.6" ng-bind="item.updated"
+                        style="color: rgb(102, 102, 102); font-size: 14px;">2017-06-19</div>
+                </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>
