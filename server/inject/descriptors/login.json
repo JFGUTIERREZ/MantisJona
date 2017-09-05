@@ -24,7 +24,7 @@
         ]
       },
       "selector": "[name=\"password\"]",
-      "control": "property.innerText"
+      "control": "Text"
     },
     "errorMessage": {
       "type": "string",
