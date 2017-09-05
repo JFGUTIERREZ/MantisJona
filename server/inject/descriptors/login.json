@@ -37,8 +37,9 @@
     },
     "islogin": {
       "type": "identifier",
-      "selector": "[name=\"username\"]",
-      "control": "text"
+      "control": "text",
+      "selector": ".form-title",
+      "selectContains": "Login"
     }
   },
   "connect": []
