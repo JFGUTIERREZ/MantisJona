@@ -11,7 +11,8 @@
           "submit"
         ]
       },
-      "selector": "[name=\"username\"]"
+      "selector": "[name=\"username\"]",
+      "control": "property.innerText"
     },
     "password": {
       "type": "string",
@@ -22,7 +23,8 @@
           "submit"
         ]
       },
-      "selector": "[name=\"password\"]"
+      "selector": "[name=\"password\"]",
+      "control": "property.innerText"
     },
     "errorMessage": {
       "type": "string",
@@ -33,11 +35,12 @@
     },
     "submit": {
       "type": "action",
-      "selector": ".button"
+      "selector": ".button",
+      "control": "action.button"
     },
     "islogin": {
       "type": "identifier",
-      "control": "text",
+      "control": "exists",
       "selector": ".form-title",
       "selectContains": "Login"
     }
