@@ -28,12 +28,6 @@
       "selector": ".form-title",
       "control": "exists",
       "selectContains": "Enter Report Details"
-    },
-    "reportanissue": {
-      "type": "action",
-      "selector": "a",
-      "control": "action.link",
-      "selectContains": "Report Issue"
     }
   },
   "connect": [
