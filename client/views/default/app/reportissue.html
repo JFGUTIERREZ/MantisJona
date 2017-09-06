@@ -31,7 +31,8 @@
                     <label class="item  item-input item-select-icon positive-icon"
                         data-comp-id="selectInput.1">
                         <span class="input-label">Category</span>
-                        <select></select>
+                        <select ng-model="data.category.selected"
+                            ng-options="item as item.label for item in data.category.options"></select>
                     </label>
                 </div>
             </div>
@@ -41,7 +42,7 @@
                 <div class="col" data-comp-id="column.4">
                     <label class="item item-input" data-comp-id="textInput.2">
                         <span class="input-label">Summary</span>
-                        <input type="text">
+                        <input ng-model="data.summary" type="text">
                     </label>
                 </div>
             </div>
@@ -51,7 +52,7 @@
                 <div class="col" data-comp-id="column.5">
                     <label class="item item-input item-stacked-label" data-comp-id="textAreaInput.1">
                         <span class="input-label">Description</span>
-                        <textarea rows="4"></textarea>
+                        <textarea ng-model="data.description" rows="4"></textarea>
                     </label>
                 </div>
             </div>

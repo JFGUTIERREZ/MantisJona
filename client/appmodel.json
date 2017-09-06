@@ -139,16 +139,25 @@
     "comment": "",
     "properties": {
       "category": {
-        "type": "select"
+        "type": "select",
+        "update": {
+          "type": "none"
+        }
       },
       "submit": {
         "type": "action"
       },
       "description": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       },
       "summary": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       }
     }
   }
