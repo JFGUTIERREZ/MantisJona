@@ -138,7 +138,10 @@
       "category": {
         "type": "select"
       },
-      "Description": {
+      "submit": {
+        "type": "action"
+      },
+      "description": {
         "type": "string"
       }
     }
