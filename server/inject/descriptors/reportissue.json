@@ -8,10 +8,15 @@
       "control": "select"
     },
     "submit": {
-      "type": "action"
+      "type": "action",
+      "selector": ".button",
+      "selectContains": "Submit Report",
+      "control": "action.button"
     },
     "description": {
-      "type": "string"
+      "type": "string",
+      "selector": "[name=\"description\"]",
+      "control": "text"
     }
   },
   "connect": []
