@@ -22,6 +22,12 @@
       "type": "string",
       "selector": "[name=\"summary\"]",
       "control": "text"
+    },
+    "isreportissue": {
+      "type": "identifier",
+      "selector": ".form-title",
+      "control": "exists",
+      "selectContains": "Enter Report Details"
     }
   },
   "connect": []
