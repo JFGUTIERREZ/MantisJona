@@ -1,0 +1,18 @@
+{
+  "type": "object",
+  "comment": "",
+  "properties": {
+    "category": {
+      "type": "select",
+      "selector": "[name=\"category_id\"]",
+      "control": "select"
+    },
+    "submit": {
+      "type": "action"
+    },
+    "description": {
+      "type": "string"
+    }
+  },
+  "connect": []
+}
