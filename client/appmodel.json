@@ -145,10 +145,7 @@
         "type": "action"
       },
       "description": {
-        "type": "string",
-        "update": {
-          "type": "none"
-        }
+        "type": "string"
       },
       "summary": {
         "type": "string",
