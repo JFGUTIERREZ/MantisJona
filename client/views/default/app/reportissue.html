@@ -7,7 +7,7 @@
         <ion-nav-title data-comp-id="nav-title.1">Report Issue</ion-nav-title>
         <ion-nav-buttons side="right">
             <i class="icon fa-icon fa-save light" data-comp-id="icon.1"
-                ng-click="app.action('reportissue', 'submit', this)" style="font-size: 30px;"></i>
+                ng-click="reportissuefn()" style="font-size: 30px;"></i>
         </ion-nav-buttons>
     </ion-nav-bar>
     <ion-content data-comp-id="ionic-content.1">
@@ -33,16 +33,6 @@
                         <span class="input-label">Category</span>
                         <select ng-model="data.category.selected"
                             ng-options="item as item.label for item in data.category.options"></select>
-                    </label>
-                </div>
-            </div>
-        </div>
-        <div class=" card" data-comp-id="div.3">
-            <div class="row" data-comp-id="row.3">
-                <div class="col" data-comp-id="column.4">
-                    <label class="item item-input" data-comp-id="textInput.2">
-                        <span class="input-label">Summary</span>
-                        <input ng-model="data.summary" type="text">
                     </label>
                 </div>
             </div>
