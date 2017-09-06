@@ -130,5 +130,17 @@
         }
       }
     }
+  },
+  "reportissue": {
+    "type": "object",
+    "comment": "",
+    "properties": {
+      "category": {
+        "type": "select"
+      },
+      "Description": {
+        "type": "string"
+      }
+    }
   }
 }
