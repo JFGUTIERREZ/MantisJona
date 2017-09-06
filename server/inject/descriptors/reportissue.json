@@ -17,6 +17,11 @@
       "type": "string",
       "selector": "[name=\"description\"]",
       "control": "text"
+    },
+    "summary": {
+      "type": "string",
+      "selector": "[name=\"summary\"]",
+      "control": "text"
     }
   },
   "connect": []
