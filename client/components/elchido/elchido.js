@@ -4,7 +4,9 @@ function ($rootScope, $injector, $ionicModal) {
 
     return {
         template: 
-        '<button ng-click="openPad()">CLICK ME</button>',
+        '<input class="button button-block button-energized" data-comp-id="button.1" ' +
+        'ng-click="openPad()" '+
+        'style="border-color: rgba(255, 255, 255, 0);" type="button" value="El boton chido">',
         restrict: 'E',
         transclude: true,
         scope: {
