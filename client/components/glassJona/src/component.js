@@ -1,4 +1,4 @@
-angular.module('app').directive('glassSignature',
+angular.module('app').directive('glassJona',
     function ($rootScope, $injector, $ionicModal) {
         'use strict';
 
@@ -27,7 +27,7 @@ angular.module('app').directive('glassSignature',
             },
             controller: function ($scope) {
                 $scope.openPad = function() {
-                    $ionicModal.fromTemplateUrl('/components/bower_components/glass-signature/templates/signatureModal.html', {
+                    $ionicModal.fromTemplateUrl('/components/bower_components/glass-jona/templates/signatureModal.html', {
                         scope: $scope,
                         animation: 'slide-in-up'
                     }).then(function(modal) {
