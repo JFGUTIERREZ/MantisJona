@@ -1,0 +1,17 @@
+{
+  "name": "Glass Signature",
+  "properties": [
+    {
+      "label": "Data Mapping",
+      "group": "interaction",
+      "property": "ngModel",
+      "selector": "."
+    },
+    {
+      "label": "Label",
+      "group": "labels",
+      "property": "innerHTML",
+      "selector": "."
+    }
+  ]
+}

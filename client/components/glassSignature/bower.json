@@ -1,0 +1,10 @@
+{
+  "name": "glass-signature",
+  "description": "glass-signature",
+  "main": "src/component.js",
+  "ignore": [],
+  "private": true,
+  "dependencies": {
+    "signature_pad": "1.5.2"
+  }
+}
